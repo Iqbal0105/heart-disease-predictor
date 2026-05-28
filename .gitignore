@@ -1,0 +1,20 @@
+# Ignore the large model file (exceeds GitHub's 100MB limit)
+models/heart_disease_model.pkl
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
